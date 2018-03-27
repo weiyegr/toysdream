@@ -1,0 +1,79 @@
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30rpx;
+}
+
+.container{
+    background: #F6F6F6;
+    text-align: left;
+}
+
+.m_box{
+    background: #F6F6F6;
+    width: 95%;
+    
+    margin: 0 auto;
+    padding:10rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+
+.m_box .title{
+    width: 25%;
+    text-align: left;
+    font-size: 32rpx;
+    float: left;
+}
+
+.m_box .content{
+    width: 75%;
+    text-align: left;
+    float:left;
+}
+
+.m_box .content input{
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.m_box .content .sex{
+    width: 100rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    float:right;
+    margin: 10rpx 40rpx;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.m_box_3{
+    background: #F6F6F6;
+    width: 95%;
+    margin: 0 auto;
+    padding:5rpx;
+}
+
+.m_box_3 .left{
+  width: 50%;
+  float: left;
+}
+.m_box_3 .right{
+  width: 50%;
+  float: left;
+}
+
+.m_box .content input{
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.Address_button{
+    font-size: 34rpx;
+    width: 300rpx;
+    margin: 20rpx auto;
+}

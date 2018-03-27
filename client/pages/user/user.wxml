@@ -1,0 +1,53 @@
+<!--user.wxml-->
+<view class="container">
+      <!--头部、头像、用户名-->
+      <view class="header_info">
+          <image class="header_info_userinfo-avatar" src="{{logged ? userInfo.avatarUrl : '/images/user-unlogin.png'}}" background-size="cover" ></image> 
+          <view class="header_info_userinfo-detail">
+              <view class="header_info_userinfo-detail-nickname">{{logged?userInfo.nickName:"昵称"}}</view>
+              <view>共享币：80</view>
+              
+          </view>
+          <view style="clear:both;"></view>
+      </view>
+
+      <!--积分详情-->
+      <view class="list_detail" bindtap='myCredits'>
+          <image class="detail_icon" src='/images/credit.png'></image> 
+          <view class="detail_title">共享币详情</view>
+      </view>
+
+      <!--我的共享-->
+      <view class="list_detail" bindtap='myShare'>
+          <image class="detail_icon" src='/images/myshare.png'></image>
+          <view class="detail_title">我的共享</view>
+      </view>
+
+      <!--我的收货地址-->
+      <view class="list_detail" bindtap='myAddress'>
+          <image class="detail_icon" src='/images/address.png'></image>
+          <view class="detail_title">收货地址</view>
+      </view>
+      
+
+      <!--联系客服-->
+      <view class="list_detail">
+          <image class="detail_icon" src='/images/contact.png'></image>
+          <view class="detail_title">在线客服</view>
+          <view class="detail_icon_i">
+          <contact-button type="default-light" size="50" session-from="weapp" ></contact-button>
+          <contact-button type="default-light" size="50" session-from="weapp" ></contact-button>
+          <contact-button type="default-light" size="50" session-from="weapp" ></contact-button>
+          <contact-button type="default-light" size="50" session-from="weapp" ></contact-button>
+          <contact-button type="default-light" size="50" session-from="weapp" ></contact-button>
+          
+          </view>
+          
+      </view>
+      
+
+      <!--退出登陆-->
+      <view class="login_out">
+        退出账号
+      </view>
+</view>

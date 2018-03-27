@@ -1,0 +1,38 @@
+<!--myShare.wxml-->
+<view class="container">
+    <scroll-view class="sroll_view_container" scroll-y>
+        <view wx:for="{{myshare}}">
+        <view class="share_item">
+            <view class="share_item_header">
+                <view class="share_item_header_left">{{item.goods_name}}</view>
+                <view class="share_item_header_center"><image src="/images/pointto.png"></image></view>
+                <view class="share_item_header_right">{{item.goods_status_c}}</view>
+                <view style='clear:both;'></view>
+            </view>
+            <view class="share_item_content">
+                <view class="share_item_content_info">
+                    <view class="share_item_content_info_image">
+                        <image src="{{item.goods_image}}" mode="scaleToFill" lazy-load="true"></image>
+                    </view>
+                    <view class="share_item_content_info_text">
+                        <view><span>购买价格：</span>￥{{item.buy_price}}</view>
+                        <view><span>购买时间：</span>{{item.buy_time}}</view>
+                        <view><span>商品描述：</span>{{item.goods_description}}</view>                    
+                    </view>
+                </view>
+                <view class="share_item_content_edit">
+                    <image src="/images/edit.png" bindtap="addShare" data-goods_id="{{item.goods_id}}" data-goods_status="item.goods_status"></image>
+                </view>
+                <view style='clear:both;'></view>
+            </view>
+            <view class="share_item_bottom">
+                发布时间：{{item.add_time}}
+            </view>
+            
+        </view>
+        </view>
+    </scroll-view>
+    <view class="address-add" bindtap="addShare">
+        <image src="/images/add.png" mode="scaleToFill"></image> 发布共享商品
+    </view>
+</view>

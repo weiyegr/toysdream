@@ -1,0 +1,183 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container{
+    background: #e6e6e6;
+    padding-bottom: 20rpx;
+}
+
+.swiper {  
+  width: 100%;  
+} 
+
+.cat_nav{
+    background: #efefef;
+    width: 100%;
+    padding-bottom: 30rpx;
+    
+}
+
+.cat_nav .nav_item{
+    width: 25%;
+    text-align: center;
+    float: left;
+    font-size: 26rpx;
+}
+
+.cat_nav image{
+    width: 100rpx;
+    height: 100rpx;
+    margin-top: 30rpx;
+    border-radius:50rpx;
+    vertical-align: middle;
+}
+
+.free_share_list{
+    margin: 20rpx auto 0;
+    width: 95%;
+    font-size: 30rpx;
+}
+
+.free_share_list .free_share_list_header{
+    padding:10rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    background: #F6F6F6;
+}
+
+.free_share_list .free_share_list_header .free_share_list_header_left{
+    width: 49%;
+    float: left;
+}
+
+.free_share_list .free_share_list_header .free_share_list_header_right{
+    width: 49%;
+    float: right;
+    text-align:right;
+}
+
+.free_share_list_body{
+    white-space: nowrap; 
+    display: flex;
+    width: 95%;
+    overflow: hidden;
+    background: #F6F6F6;
+    margin: 0 auto 0;
+}
+
+.free_share_list_body_item{
+    width: 220rpx;
+    height:240rpx;
+    background: #F6F6F6;
+    display: inline-block
+}
+
+.free_share_list_body_item image{
+    width: 200rpx;
+    height:200rpx;
+    margin: 20rpx 0 20rpx 20rpx;
+}
+
+.share_modules{
+    width: 95%;
+    margin: 0 auto;
+    
+    
+}
+
+.share_modules .share_modules_image{
+  text-align: center;
+  padding: 20rpx 0;
+}
+
+.share_modules image{
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.share_modules .share_modules_0{
+    width: 48.75%;
+    margin-top: 20rpx;
+    float:left;
+    background: #F6F6F6;
+}
+
+.share_modules .share_modules_1{
+    width: 48.75%;  
+    margin-top: 20rpx;
+    float:right;
+    background: #F6F6F6;
+}
+
+.share_modules .header{
+    padding:10rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    background: #F6F6F6;
+    font-size: 34rpx;
+}
+
+.share_modules .description{
+    padding:0 10rpx 10rpx 10rpx;
+    height: 30rpx;
+    line-height: 30rpx;
+    background: #F6F6F6;
+    color: #8a8a8a;
+    font-size: 30rpx;
+}
+
+.guess_like{
+    margin: 30rpx 0 10rpx;
+    text-align: center;
+    font-size: 34rpx;
+}
+
+.guess_share_modules{
+    width: 95%;
+    margin: 0 auto;
+    
+}
+
+.guess_share_modules .guess_share_modules_image{
+    padding:20rpx;
+    text-align: center; 
+}
+
+.guess_share_modules .guess_share_modules_image image{
+    width: 300rpx;
+    height: 300rpx;
+    border: 1px solid #e6e6e6;
+}
+
+.guess_share_modules .guess_share_modules_title{
+    padding:0 20rpx 20rpx;
+    line-height: 32rpx;
+    font-size: 30rpx;
+    white-space:normal;
+
+}  
+
+.guess_share_modules .guess_share_modules_0{
+    width: 48.75%;
+    margin-top: 20rpx;
+    float:left;
+    background: #F6F6F6;
+}
+
+.guess_share_modules .guess_share_modules_1{
+    width: 48.75%;  
+    margin-top: 20rpx;
+    float:right;
+    background: #F6F6F6;
+}
+
+
+
+
+
+

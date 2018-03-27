@@ -1,0 +1,20 @@
+<!--myAddress.wxml-->
+<view class="container">
+    <view wx:for="{{myaddress}}">
+    <view class="address_list">
+        <view class="address_list_left">
+            <view class="address_list_left_title"><span>{{item.name}}</span> {{item.sex==1?'先生':'女士'}} {{item.phone}}</view>
+            <view>{{item.province}}{{item.city}}{{item.area}}{{item.address}}</view>
+        </view>
+        <view class="address_list_right">
+            <image src="/images/edit.png" bindtap="addAddress" data-id="{{item.address_id}}"></image>
+        </view>
+        <view style="clear:both;"></view>
+    </view>
+    </view>
+
+    
+    <view class="address-add" bindtap="addAddress" data-id="">
+        <image src="/images/add.png" mode="scaleToFill"></image> 添加地址
+    </view>
+</view>

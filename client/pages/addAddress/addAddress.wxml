@@ -1,0 +1,43 @@
+<!--addAddress.wxml-->
+<view class="container">
+    <view class="m_box">
+        <view class="title">联系人：</view>
+        <view class="content"><input name="name" bindinput="name" placeholder="请输入联系人" value="{{name}}"></input></view>
+    </view>
+
+    <view class="m_box">
+        <view class="title"></view>
+        <view class="content">
+            <view class="sex" style='color:{{sexColor[1]}}' bindtap='bindsex_2'>女士</view>
+            <view class="sex" style='color:{{sexColor[0]}}' bindtap='bindsex_1'>先生</view>
+        </view>
+    </view>
+
+    <view class="m_box">
+        <view class="title">联系电话：</view>
+        <view class="content"><input name="phone" type="number" bindinput="phone" placeholder="请输入电话号码" value="{{phone}}"></input></view>
+    </view>
+
+    <view class="m_box">
+        <view class="title">所属地区：</view>
+        <view class="content">
+            <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+                <view class="picker">
+                  {{region[0]}}，{{region[1]}}，{{region[2]}}
+                </view>
+            </picker>
+        </view>
+    </view>
+
+    <view class="m_box">
+        <view class="title">详细地址：</view>
+        <view class="content"><input name="address" bindinput="address" placeholder="请输入详细地址" value="{{address}}"></input></view>
+    </view>
+
+    <view class="m_box_3">
+        <view class='left'><button class="Address_button" type="warn" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="deleteAddress"> 删除 </button></view>
+        <view class='right'><button class="Address_button" type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="submitAddress"> 确认 </button></view>
+    </view>
+
+
+</view>

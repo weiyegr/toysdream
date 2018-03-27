@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/user/user",
+    "pages/myCredits/myCredits",
+    "pages/myShare/myShare",
+    "pages/addShare/addShare",
+    "pages/myAddress/myAddress",
+    "pages/addAddress/addAddress",
+    "pages/myOrders/myOrders",
+    "pages/goodsDetail/goodsDetail"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "跳虾共享",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/myOrders/myOrders",
+        "text": "使用",
+        "iconPath": "images/using.png",
+        "selectedIconPath": "images/using_selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user_selected.png"
+      }
+    ]
+  }
+  
+}

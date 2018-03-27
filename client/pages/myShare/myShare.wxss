@@ -1,0 +1,136 @@
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30rpx;
+}
+
+
+.share_item{
+  margin: 15rpx 0;
+  padding:20rpx;
+  width: calc(100%-40rpx);
+  background: #F6F6F6;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 30rpx;
+}
+
+.address-add {
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius:0;
+    font-size: 32rpx;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    background: #F6F6F6;
+    
+}
+
+.address-add image{
+    width: 44rpx;
+    height: 44rpx;
+    vertical-align: middle;
+}
+.share_item_header{
+    width: 100%;
+    height: 50rpx;
+    border-bottom: 1px solid #e6e6e6;   
+}
+
+.share_item_header .share_item_header_left{
+    width:70%;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 34rpx;
+    overflow:hidden;
+    float:left;
+    font-weight: 600;
+    
+}
+
+.share_item_header .share_item_header_center{
+    width:5%;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 36rpx;
+    text-align: right;
+    float:left;
+}
+
+.share_item_header .share_item_header_center image{
+    width: 25rpx;
+    height: 25rpx;
+    vertical-align: middle;
+}
+
+.share_item_header .share_item_header_right{
+    width:25%;
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    float:right;
+}
+
+.share_item_content{
+    padding: 20rpx 0;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;   
+}
+
+.share_item_content .share_item_content_info{
+    width: 85%;
+    float:left;
+}
+
+.share_item_content .share_item_content_info .share_item_content_info_image{
+    margin-right: 20rpx;
+    width: 150rpx;
+    height: 150rpx;
+    vertical-align: top;
+    border: 1px solid #e6e6e6;
+    float: left;
+}
+
+.share_item_content .share_item_content_info .share_item_content_info_image image{
+    width: 150rpx;
+    height: 150rpx;
+}
+
+.share_item_content .share_item_content_info .share_item_content_info_text{
+    width: 410rpx;
+    float:left;
+}
+
+.share_item_content .share_item_content_info .share_item_content_info_text span{
+    color: #515151;
+}
+
+.share_item_content .share_item_content_edit{
+    width: 15%;
+    height: 150rpx;
+    line-height: 150rpx;
+    float:right;
+    text-align: center;
+}
+
+.share_item_content .share_item_content_edit image{
+    width: 40rpx;
+    height: 40rpx;
+    padding: 0 10rpx;
+    vertical-align: middle;
+}
+
+.share_item_bottom{
+    width: 100%;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 28rpx;
+    color:#bfbfbf;
+}
+
+
+

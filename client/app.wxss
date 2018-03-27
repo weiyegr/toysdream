@@ -1,0 +1,6 @@
+/**app.wxss**/
+.container {
+  text-align: left;
+  background-color: #efefef;
+  color: #2c2c2c;
+} 
